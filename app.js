@@ -1,9 +1,31 @@
 //1ª Parte -  Pensamento Criativo 
-// Instruções
-// 1.1  Encontrarão um quebra-cabeça, o qual parece impossível de resolver com uma abordagem mais direta. Assim sendo, utilizem o pensamento lateral, 
-//visando encontrar soluções não convencionais que explorem as mais diversas perspectivas e possibilidades.
-// em doc pdf
 
+// 1.1  Encontrarão um quebra-cabeça, o qual parece impossível de resolver com uma abordagem mais direta. Assim sendo, utilizem o pensamento lateral, visando encontrar soluções não convencionais que explorem as mais diversas perspectivas e possibilidades.
+
+    // Eu buscaria informações na parte de trás do quebra-cabeça, verificando se há alguma mensagem, símbolo ou pista na parte de trás.
+    // Usaria a luz da lanterna do celular nas peças do quebra-cabeça para verificar se há detalhes ou padrões ocultos que seriam visíveis somente ao colocar luz direta.
+    // Verificar se as peças não teriam um adesivo ou “compartimento” que pudesse mostrar mais informações.
+    // Tentaria usar algum comando de voz para ativar ou abrir algo que ajudasse a desmistificar o quebra cabeças. Uma frase ou palavra secreta, quem sabe.
+    // Talvez o quebra cabeças seja só uma distração, então enquanto um investiga o quebra cabeças ooutro explora o ambiente para verificar portas de saída,passagens secretas, fundos falsos ou chaves escondidas.
+    // O quebra-cabeça pode ser uma distração enquanto o verdadeiro desafio está em outro lugar, usamos
+    // uma porta e vamos para outro cômodo em busca de mais informações. É bom anotar no nosso bloco de notas as possibilidades do cômodo anterior para caso seja necessário voltar lá.
+
+//1.2 Vocês devem procurar uma sala de objetos aparentemente aleatórios. Logo, utilizem o brainstorming para gerar ideias sobre como esses objetos podem ser combinados de maneiras criativas com o objetivo de resolver especificamente o problema específico proposto na casa.
+
+    // Livro antigo ao examinar minuciosamente, descobrimos um fundo falso descobrimos um fundo falso que esconde uma chave. Essa chave pode ser a peça chave para abrir uma das portas trancadas na casa.
+    // A planta da casa, encontramos ela em uma cômoda antiga. Com a planta, podemos estudar a disposição dos cômodos e identificar as possíveis portas que a chave pode abrir.
+    // Uma baússola tilizamos a bússola para nos orientar na direção correta conforme indicado na planta da casa.
+
+//1.3 Em alguma parte da referida casa, vocês encontrarão vários enigmas que são representações metafóricas de alguns problemas do mundo real. Portanto, usem a criatividade para decifrá-los e aplicar as soluções correspondentes aos problemas que encontraram.
+
+    //A sala possui várias portas e vários espelhos que distorcem nossa imagem, mas compreendemos que devemos focar no reflexo da nossa realidade.
+    //Observamos que existe um relógio onde o tempo passa muito mais rápido, em vez de nos preocuparmos entendemos que cada um tem seu próprio tempo e só devemos continuar seguindo nosso objetivo.
+    // Percebemos que as portas desse cômodo tem símbolos colados nelas, ao juntar todos os símbolos(podemos usar a analogia de juntar nossas energias e manter o foco em nosso objetivo futuro) conseguimos ver a mensagem na parte de trás deles que tem a direção para onde devemos seguir.
+
+//1.4 4. Procurem uma área onde possam experimentar livremente as soluções para o problema específico. Experimentem suas ideias desenvolvidas, aprendam com os resultados dos experimentos realizados e ajustem as estratégias conforme necessário, a fim de avançar e escapar da casa.
+
+// Após seguir a direção indicada pela bússola, chegamos à garagem da casa. Sem uma mesa para reunir as informações, improvisamos um espaço no chão para usar como área de trabalho. Utilizando a chave encontrada no livro antigo, tentamos abrir uma das portas da garagem, porém sem sucesso. 
+//Somente após um tempo notamos um cadeado lateral no portão da garagem. Usamos a chave nele e finalmente conseguimos acesso! Ao escapar da casa, percebemos que nem todos os desafios eram reais; alguns exigiam mais atenção para identificar pistas significativas e outros não.
 
 //2ª Parte – Aplicação dos conceitos estudados da lógica:     
 

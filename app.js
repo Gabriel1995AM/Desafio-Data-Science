@@ -1,19 +1,36 @@
+//1ª Parte -  Pensamento Criativo 
+
+
+
+//2ª Parte – Aplicação dos conceitos estudados da lógica:     
+
 // 1. Question Elabore um algoritmo que contenha uma função chamada “Operacao”, a qual recebe 2 parâmetros e, após as operações, 
 //imprima a soma da exponenciação, o resto da divisão do primeiro pelo segundo e a subtração do segundo pelo primeiro.
 
-let n1 = parseFloat(prompt('Digite o primeiro número: '));
-let n2 = parseFloat(prompt('Digite o segundo número: '));
+let primeiroNumero = parseFloat(prompt('Digite o primeiro número: '));
+let segundoNumero = parseFloat(prompt('Digite o segundo número: '));
 
-function Operacao(n1, n2){
- somaExponenciacao = n1 ** n2;
+function Operacao(num1, num2){
+ let somaExponenciacao = num1 ** num2;
    console.log('Soma da exponenciação:', somaExponenciacao);
- restoDivisao = n1 % n2;
+ let restoDivisao = num1 % num2;
    console.log('Resto da divisão do primeiro pelo segundo:', restoDivisao);
- subtracao = n2 - n1;
+let subtracao = num2 - num1;
 console.log('Subtração do segundo pelo primeiro:', subtracao);
 }
 
-Operacao(n1, n2);
+Operacao(primeiroNumero, segundoNumero);
+
+//2.  	Um Banco contratou-lhe para implementar uma operação no seu sistema que aplica a taxa de rendimento sobre o valor aplicado na poupança. 
+//Logo, o supervisor de TI pediu para implementar uma função que receba dois parâmetros: “CapitalAplicado” e “TempoDeAplicacao:
+
+function calcularRendimento(CapitalAplicado, TempoDeAplicacao) {
+    let taxaDeRendimentoMensal = 0.006022; // 0.6022% ao mês
+
+    let valorDoRendimento = CapitalAplicado * (1 + taxaDeRendimentoMensal) ** TempoDeAplicacao;
+
+    return valorDoRendimento;
+}
 
 // 2.a) Implemente um algoritmo que solicite ao usuário o valor, em dinheiro, aplicado e a quantidade de meses em aplicação, considerando que a taxa de juros, por mês, é de 0,6022%. 
 //Ao final, imprima o valor aplicado inicialmente, a quantidade de meses e o valor final com o acréscimo de juros, em “Template String”, da seguinte forma: A quantia de R$[CapitalAplicado] 
@@ -21,15 +38,15 @@ Operacao(n1, n2);
 //“Valor informado inválido! Por favor, informe o valor depositado na poupança”.Em seguida, solicite novamente ao cliente o valor aplicado na poupança e a quantidade de meses, até que o valor válido seja informado.
 
 function rendimentos() {
-  TaxaDeJuros = 0.6022 / 100;
-  CapitalAplicado = parseFloat(prompt('Informe o valor aplicado na poupança:'));
-  TempoDeAplicacao = parseInt(prompt('Informe a quantidade de meses em aplicação:'));
+  let TaxaDeJuros = 0.6022 / 100;
+  let CapitalAplicado = parseFloat(prompt('Informe o valor aplicado na poupança:'));
+  let TempoDeAplicacao = parseInt(prompt('Informe a quantidade de meses em aplicação:'));
 
   if (CapitalAplicado === 0 || TempoDeAplicacao === 0 || CapitalAplicado <=  0 || TempoDeAplicacao <= 0) {
       alert('Valor informado inválido! Por favor, informe o valor depositado na poupança e a quantidade de meses em aplicação.');
       rendimentos(); 
  }  else {
-      valoDoRendimento = CapitalAplicado * (1 + TaxaDeJuros) ** TempoDeAplicacao;
+  let valoDoRendimento = CapitalAplicado * (1 + TaxaDeJuros) ** TempoDeAplicacao;
       console.log(`A quantia de R$${CapitalAplicado} aplicada em ${TempoDeAplicacao} meses, rendeu R$${valoDoRendimento.toFixed(2)} a juros de ${TaxaDeJuros * 100}%.`);
 }
 }

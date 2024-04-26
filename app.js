@@ -1,5 +1,8 @@
 //1ª Parte -  Pensamento Criativo 
-
+// Instruções
+// 1.1  Encontrarão um quebra-cabeça, o qual parece impossível de resolver com uma abordagem mais direta. Assim sendo, utilizem o pensamento lateral, 
+//visando encontrar soluções não convencionais que explorem as mais diversas perspectivas e possibilidades.
+// em doc pdf
 
 
 //2ª Parte – Aplicação dos conceitos estudados da lógica:     
@@ -11,12 +14,19 @@ let primeiroNumero = parseFloat(prompt('Digite o primeiro número: '));
 let segundoNumero = parseFloat(prompt('Digite o segundo número: '));
 
 function Operacao(num1, num2){
- let somaExponenciacao = num1 ** num2;
-   console.log('Soma da exponenciação:', somaExponenciacao);
- let restoDivisao = num1 % num2;
-   console.log('Resto da divisão do primeiro pelo segundo:', restoDivisao);
-let subtracao = num2 - num1;
-console.log('Subtração do segundo pelo primeiro:', subtracao);
+  let somaExponenciacao = num1 ** num2;
+  console.log('Soma da exponenciação:', somaExponenciacao);
+
+  let restoDivisao;
+    if (num2 !==0){
+  restoDivisao = num1 % num2;
+  console.log('Resto da divisão do primeiro pelo segundo:', restoDivisao)
+}   else {
+  alert('Impossivel calcular a divisão se o numero for 0', restoDivisao);
+}
+
+  let subtracao = num2 - num1;
+  console.log('Subtração do segundo pelo primeiro:', subtracao);
 }
 
 Operacao(primeiroNumero, segundoNumero);
@@ -75,7 +85,6 @@ function rendimento() {
 } else {
       TaxaDeJuros = 0.006022; 
 }
-
   let valorDoRendimento = CapitalAplicado * (1 + TaxaDeJuros) ** TempoDeAplicacao;
   console.log(`A quantia de R$${CapitalAplicado} aplicada em ${TempoDeAplicacao} meses, rendeu R$${valorDoRendimento.toFixed(2)}.`);
 }
@@ -89,12 +98,12 @@ rendimento();
 
 
 function rendimento() {
-  let CapitalAplicado = parseFloat(prompt("Informe o valor aplicado na poupança:"));
-  let TempoDeAplicacao = parseInt(prompt("Informe a quantidade de meses em aplicação:"));
+  let CapitalAplicado = parseFloat(prompt('Informe o valor aplicado na poupança:'));
+  let TempoDeAplicacao = parseInt(prompt('Informe a quantidade de meses em aplicação:'));
   let TaxaDeJuros = 0;
 
   if (CapitalAplicado === 0 || TempoDeAplicacao === 0 || CapitalAplicado <= 0 || TempoDeAplicacao <= 0) {
-      alert("Valor informado inválido! Por favor, informe o valor depositado na poupança e a quantidade de meses em aplicação.");
+      alert('Valor informado inválido! Por favor, informe o valor depositado na poupança e a quantidade de meses em aplicação.");
       return; 
   }
 

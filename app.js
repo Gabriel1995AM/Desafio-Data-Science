@@ -4,11 +4,10 @@
 
     // Eu buscaria informações na parte de trás do quebra-cabeça, verificando se há alguma mensagem, símbolo ou pista na parte de trás.
     // Usaria a luz da lanterna do celular nas peças do quebra-cabeça para verificar se há detalhes ou padrões ocultos que seriam visíveis somente ao colocar luz direta.
-    // Verificar se as peças não teriam um adesivo ou “compartimento” que pudesse mostrar mais informações.
+    // Verificaria se as peças não teriam um adesivo ou “compartimento” que pudesse mostrar mais informações.
     // Tentaria usar algum comando de voz para ativar ou abrir algo que ajudasse a desmistificar o quebra cabeças. Uma frase ou palavra secreta, quem sabe.
     // Talvez o quebra cabeças seja só uma distração, então enquanto um investiga o quebra cabeças ooutro explora o ambiente para verificar portas de saída,passagens secretas, fundos falsos ou chaves escondidas.
-    // O quebra-cabeça pode ser uma distração enquanto o verdadeiro desafio está em outro lugar, usamos
-    // uma porta e vamos para outro cômodo em busca de mais informações. É bom anotar no nosso bloco de notas as possibilidades do cômodo anterior para caso seja necessário voltar lá.
+    // O quebra-cabeça pode ser uma distração enquanto o verdadeiro desafio está em outro lugar, usamos uma porta e vamos para outro cômodo em busca de mais informações. É bom anotar no nosso bloco de notas as possibilidades do cômodo anterior para caso seja necessário voltar lá.
 
 //1.2 Vocês devem procurar uma sala de objetos aparentemente aleatórios. Logo, utilizem o brainstorming para gerar ideias sobre como esses objetos podem ser combinados de maneiras criativas com o objetivo de resolver especificamente o problema específico proposto na casa.
 
